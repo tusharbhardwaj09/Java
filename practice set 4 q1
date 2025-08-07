@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class practice_set4 {
+    public static void main(String[] args) {
+       
+        Scanner j= new Scanner(System.in);
+        System.out.println("Enter your first Subject Marks  :");
+        int one= j.nextInt();
+        System.out.println("Enter your Second Subject Marks :");
+        int second = j.nextInt();
+        System.out.println("Enter your Third Subject Marks  :");
+        int third = j.nextInt();
+        float sum = one+second+third;
+        float percentage = sum/3.0f ;
+        System.out.print("The percentage is :");
+        System.out.println(percentage);
+        if(percentage>=40 && one>=33 && second>=33 && third>=33)
+{
+            System.out.println("CONGRATULATONS!! YOU PASSED THE EXAM");
+        }
+        else
+{
+            System.out.println("Better Luck Next Time");
+        }
+  }
+}
+     
